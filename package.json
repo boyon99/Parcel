@@ -1,0 +1,33 @@
+{
+  "name": "parcel",
+  "version": "1.0.0",
+  "description": "parcel 실습 RPEO",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boyon99/Parcel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boyon99/Parcel/issues"
+  },
+  "homepage": "https://github.com/boyon99/Parcel#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-static-files-copy": "^2.6.0",
+    "postcss": "^8.4.21"
+  },
+  "staticFiles": {
+    "staticPath": "static"
+  },
+  "browserslist" : [
+    "> 1%", 
+    "last 2 versions" 
+  ]
+}
