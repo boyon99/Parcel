@@ -26,8 +26,12 @@
   "staticFiles": {
     "staticPath": "static"
   },
-  "browserslist" : [
-    "> 1%", 
-    "last 2 versions" 
-  ]
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "dependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2"
+  }
 }
