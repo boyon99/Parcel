@@ -18,11 +18,17 @@
   },
   "homepage": "https://github.com/boyon99/Parcel#readme",
   "devDependencies": {
+    "autoprefixer": "^9.8.8",
     "parcel-bundler": "^1.12.5",
     "parcel-plugin-static-files-copy": "^2.6.0",
+    "postcss": "^8.4.21",
     "sass": "^1.58.0"
   },
-  "staticFiles" : {
-    "staticPath" : "static" 
-  }
+  "staticFiles": {
+    "staticPath": "static"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
 }
