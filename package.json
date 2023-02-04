@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/boyon99/Parcel#readme",
   "devDependencies": {
-    "parcel-bundler": "^1.12.5"
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.58.0"
   }
 }
